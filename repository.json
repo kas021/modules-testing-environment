@@ -9,8 +9,8 @@
     "minAppVersion": "8.0.0",
     "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-5/Synthetiq-Test-Module-Bundle-5.zip",
     "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-5/Synthetiq-Test-Module-Bundle-5.zip",
-    "sha256": "8ae0de404347edbdabe1beb8799016fa594fbad556f652fbbd4c7fe025190e04",
-    "signature": "U01gN8flRJ4oHoCB2qdYnhmyXz9xH0OOCaZocgvyjDADVF2TgvZR37iIRZzXBoeTgZi5FZ/uQw0WpxVif0X//Q=="
+    "sha256": "6ef81a003708566864170fd280d80c77ac81674a5eb1909c51e29b4912c5d724",
+    "signature": "82SEfzqrKqmohyHkgUTGSX0IJlIDvRCBYwtnP6wyIEY96neQrRoq81f+vcr39OtbnPiug7sqnpknFuaGyM/CBA=="
   },
   "modules": [
     {
@@ -23,8 +23,8 @@
       "minAppVersion": "8.0.0",
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
-      "sha256": "a8bf2074fbb3a793c25188eff7f164e016aa17069094a640bd6a0d55f895c609",
-      "signature": "BvPA9WmxJXcPYvISRs7gPLFYkZeIhVkEfMdL6UvQAH0KAvV2AW1H0JFpS1fZFMF/u7bbtqGkeKveW3drniT1dQ==",
+      "sha256": "2642093d93d84fc649636c6d0796b3c16b5ed4b9f94153ca2286578b8f5f45d1",
+      "signature": "suvf92z0CxkCVlmt/5TEbOJAb+iSqMmW6Ty1nRhKUKj109Pc92DV4lZEhT14BeDSuaMRQeLgfQYLoNB6j1kvCw==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -33,7 +33,8 @@
         "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments",
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
         "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix",
-        "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL"
+        "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL",
+        "Stream routes are now range-probed before returning: dead Google Photos and expired wetransfer links are dropped, and the site's reliable An1 HLS server is preferred"
       ]
     },
     {
@@ -47,18 +48,39 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "Vw13Mqf763B1ie3ZN2E0kEYskiv0Kf4BUlTXfGy9gZPlxvjVmlHNBIhSdARP6u8Me35XIQjW6OebLV3BmUAwFw==",
+      "signature": "GBA4zr4ZBqO5uHPjeBN0ZZE/TjCDXT5D0LkzIEp4QVSkzRRgBBAA+HWLrrro8sATUg9BarQWU4L/4THXA5a8sg==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
         "Preserved compatibility with previously saved onepace-index episode links",
         "Retained sub/dub metadata and multi-quality stream resolution"
       ]
+    },
+    {
+      "moduleId": "xstream-v1",
+      "moduleFamilyId": "xstream_v1",
+      "moduleIdentity": "SP-VID-048-XSTREAM",
+      "moduleIdentityNumber": 48,
+      "contentType": "video",
+      "version": "1.1.2",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
+      "sha256": "ceebe9d9945d05e481e775b094a0d76c7b1a4022d43ef2fc3669731b34e5b67d",
+      "signature": "DnwWuMwcBub740SqCMvJkjMNfLgcnvKGZBXn0viYANR9LpUY7V2NWKCnnj9sAR0uGl+Np68QQ891oQ6E6Fa1QA==",
+      "publishedAtMs": 1785891156710,
+      "changelog": [
+        "1.1.2 reliability: segment-level softProbe (403/timeout/CF HTML = dead)",
+        "Drop dead Videasy/moon/ironwallnet routes when LookMovie/refligns work — fixes app StreamRace picking broken 1080p",
+        "Score LookMovie/refligns higher; demote fragile Videasy hosts until probe OK",
+        "TMDB multi-search fallback when freehost search flakes",
+        "Evil Dead Burn / Inception / Dune / John Wick: primary route segment verified MP2T"
+      ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "w51778lSbMDKEnRDWgucGnHLtniN4ftvxk7kgzsn7sOd+R1BVr7UoFK8hENmL7rz1rCsB1eKo8kjGBY2bc1i2Q==",
-  "signature": "iXofXDm/eak/C7gIRHnAuuZu9nH06eobfg5oDfaqxujNVoI8II+n64rfSVWpCALG8oT8HhP5ps8YLRuDmErjug=="
+  "defaultModulesSignature": "/+j4dyI9zlS7Qaelud67DaXx9afN9G9+nxlu/nNS2XHwmowrYlbo2aftxLbUlBr5ARDrReEiIXdW4ybko3pifA==",
+  "signature": "95cNFzHksNwk+Ey7fdwH//NfsEcldZ0D86tPLS5Zro2XH6j0+UvpOe8jcflvvoj7+93POtkXCjsLvaeioaZJAg=="
 }
