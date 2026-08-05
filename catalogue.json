@@ -12,7 +12,7 @@
   "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-1.zip",
   "minAppVersion": "8.0.0",
   "modules": [
-    {"file": "modules/An1me-1.0.0.zip", "changelog": ["Greek sub/dub anime catalogue", "Fixed home discovery images and 404 episode guard"]},
+    {"file": "modules/An1me-1.0.1.zip", "changelog": ["Greek sub/dub anime catalogue", "Fixed home discovery images and 404 episode guard", "Version bump so in-app update pickups recognise the newer build"]},
     {"file": "modules/Anikoto-4.0.2.zip", "changelog": ["Certified video module"]},
     {"file": "modules/Anime-Sama-1.0.2.zip", "changelog": ["VOSTFR and VF anime catalogue support"]},
     {"file": "modules/Aniworld-1.0.1.zip", "changelog": ["German anime catalogue with search, seasons, discovery", "VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes"]},
