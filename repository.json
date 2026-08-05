@@ -10,7 +10,7 @@
     "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
     "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
     "sha256": "17fa6319907698e3d1348aa5bdcac55ef853825b301749e06a7ed4cf08539f6c",
-    "signature": "TejQDSDTvq8d0pyNt++Czz5wQuMHu2QzXlV2TvKiXgfG2adQj5A2WTKsAelHVDXE8UeRl1eemf1Srsw6PtrW4A=="
+    "signature": "tNxG2VA8IRba1rn/y8DC9Z9Lq7dbPj7A+RqJyyiUzORWJd6i+81rZAWQ+0k8g0S+xRUwEhKPodiny3pSreramQ=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
       "sha256": "f26cbdc55d6ce5e976d13197d6e126e871f72725b648450074632795482df634",
-      "signature": "0RdJ8drvPt00YgfVgjZz4whPEN2ElP2cEeNa6MGAr0z80eUMjsHRnDGyznW8Kl7aX5Smr64qgbczx7/F6f/MDA==",
+      "signature": "+VBp605CkCtymhMHGcjnD85bXeil3k6m0H1qw/j1cKW9zyD/Os/LkTR617Ljb5A1fLVkaT5WUlvqmi2DIpgH+Q==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -46,7 +46,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "iDwDQvzd6co1CjXv3uT3dLqVNfNHe7WALd9PD0t1SP8m8aZXA1SvF9ADyp/MPipcztOZkusWGEZbsQsY1FBP5w==",
+      "signature": "5BMVASP9qFQRyyysCLI29h5NfMjUYHkZ9wmdrSuifSP0cVxdqzcBunBgEK+KG7J87fJTeyZPVspNjx5CEvGdvg==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -58,6 +58,6 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "5TH61j+KBM1M+hAYFh4oRJqRquR49JVAqSvW9I3vSRUQsotxBMK2bkMf5W6FN0Tf9flR+ZA3P1C1aOj6wMAAWQ==",
-  "signature": "7l8uq2rQJex2mcEksWeLolYqWbLZE5IravnttAlGH7STzfP+dOFz1wet1t9JfWzi6CGymWjHDzB8v3Y02i0sjA=="
+  "defaultModulesSignature": "2m7+u3Cyh7OMZUbB26mcwLL4qkYj6DlGYVl5zuSB0HD7gLs7p5J8CUdu9EYRdgMDf6N6lgXJ0501XUHji0maXw==",
+  "signature": "/kQ37JqNibJw8V8GjItWYdw1LzBYNsrMhe5Hmo31ZzeCXcF03YcbQQnJvPPQczSlzm3K2FwAcH/yOr6XPaffVg=="
 }
