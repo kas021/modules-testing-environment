@@ -5,12 +5,12 @@
   "enabled": true,
   "publishedAtMs": 1785891156710,
   "bundle": {
-    "version": 7,
+    "version": 8,
     "minAppVersion": "8.0.0",
-    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-7/Synthetiq-Test-Module-Bundle-7.zip",
-    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-7/Synthetiq-Test-Module-Bundle-7.zip",
-    "sha256": "07433cf602323ae067480e03f29332f1f75e4f34c5142d75133a7964650d5a08",
-    "signature": "hKnK1ZckyfQvaMU4K5dbPN9Ohu/NjYtE/imDhgh4ZkenuT+YpEvhWd83MdnOjRQL0HaQBLY6KvpuCJuFdAabCQ=="
+    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-8/Synthetiq-Test-Module-Bundle-8.zip",
+    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-8/Synthetiq-Test-Module-Bundle-8.zip",
+    "sha256": "91730306ff67d5b10a61a60b0238bee4aa356e9f9824f501d17ea586dbe85e63",
+    "signature": "BCiWDOdg77qV84rT3X23IuCZufrja+k8nd0LmDBCuba6xXZvYuy+7Z0r3revFvdcQY3N8+D1TlWt9RG73E8XMw=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "sha256": "2642093d93d84fc649636c6d0796b3c16b5ed4b9f94153ca2286578b8f5f45d1",
-      "signature": "1BshNFvSZBUY0EkrJume+rE81gixvIRnl+7Qa6uevI2G9V/dWihaLme+llKZZNOeLiMSAwiwPg3d9Nsy3gxPKg==",
+      "signature": "WXQivnaoxyRhM3bw7GXjb1mY7+YZRceWpxBggFSQs5tRBQW5JhEdKz5bqCipkgQnE85S/m+VAN5YZvtO9pzFIg==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -48,7 +48,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.1/Anidap-1.0.1.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.1/Anidap-1.0.1.zip",
       "sha256": "b66048d24effb9d967244c13ad875e5d334e810f5ac4eb2d431247d63b4646e5",
-      "signature": "fl4ZVzzzTErDBGRxIbpDcvAIvEuGh8mGlMt5/964O5lgGPUTpqpfNbDVBouZFV+uuHaoLJDcoQ9AzQP5NIw0OQ==",
+      "signature": "kEdBWwLe06HCtDoZHjoY3OgEJJETchvTcUV60vYZf06i2VYBcu78egUPTkYSyEbFGZmxrOIJ2stkvw+Yx7nM4A==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Anidap.lol English sub/dub anime",
@@ -71,7 +71,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "r/pZX8QBm48ktw7nkd66W0E+5/D2j2tCM/O/Llc+Db3r6dYNEVcQ54c2oEsTSSmheeDJuR1ZUSB3eqjY+57oUg==",
+      "signature": "0fELFWBkfhupW2COCmczSxLDEWk2j+iQTkhOsplMPNzlxm9tV2XUTKIBnt/QJXMMUjnHp25gz+Q2jRNbhI+dQw==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -90,18 +90,39 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "sha256": "ceebe9d9945d05e481e775b094a0d76c7b1a4022d43ef2fc3669731b34e5b67d",
-      "signature": "lw8/aZuoV+zwMDN/ire1luwR9h2N6fkeR0GrAwGWf0lMQg4k15MJqRhM8M7GMdF4HTwPfnbz3f7b6nTgTksihw==",
+      "signature": "si8a//wGSxkEFQVnz3pvmGHK5RgHDVSzyi2jhQ3+1lTzAg5tau4Kb5yXd6GZLrh5u5gAYSIhW5H3/SosjO5Piw==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Videasy 1080p/4K HLS plus LookMovie backups",
         "Demotes black-screen jpeg/TS Videasy segments",
         "Verified English subs via One proxy"
       ]
+    },
+    {
+      "moduleId": "shahiid-v1",
+      "moduleFamilyId": "shahiid_v1",
+      "moduleIdentity": "SP-VID-055-SHAHIID",
+      "moduleIdentityNumber": 55,
+      "contentType": "video",
+      "version": "1.0.0",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.0/Shahiid-1.0.0.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.0/Shahiid-1.0.0.zip",
+      "sha256": "37999cd5182699009ad26da3d05cc81a1ff57752734eb60ad52be90496bef3dc",
+      "signature": "9PzVecxSRV/u65p122t0gBJZ+7kWXjhaCiywsN0ttcH9noPmypR/zAH71KmQfZbCTZg8gqIVnyP5MaICh83jiQ==",
+      "publishedAtMs": 1785891156710,
+      "changelog": [
+        "Shahiid-anime.net Arabic anime (مترجم/مدبلج)",
+        "Catalog via headless webview (site is Cloudflare-JS-challenged)",
+        "Verified Megamax stream chain: Inertia streams API -> lulustream PackedJS decode -> real HLS",
+        "5 mirror backups (lulustream/voe/streamtape/mixdrop; doodstream skipped - CF wall)",
+        "Requires pagev2 on-device resolution for catalog pages"
+      ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "cm+XvA5CWKrEVyZtCwH6Z4mHoq29fNMnmF1xLUyl2JfYLGLdyBDr0dpCHwwTGw1DybSAea5X/mEPKvtnTtn48g==",
-  "signature": "gj1FZhOuVMjawLJ6IkmHuZNkvtCI5sJ7NvL+fHf07E7PXbbAxqSTGEoOM/SfUhtl56YTp9cxPUj5HinwuYdxwg=="
+  "defaultModulesSignature": "smB4CpC68RhExoe1qPZaIoypsr1DrHgX6XBQh7XpwBu6P+VCVNeVIA2/y1WyCBDCyL/YKrHNn6/J81YlzveZEw==",
+  "signature": "hcPkV9dN6U/pQHcavdqQ0+8aOTd7pR8LTsXpnkGEFYQ97u8Xgo5VyKDyK9nq14Xyor1ZzpeBK22A3cbx58JQKg=="
 }
