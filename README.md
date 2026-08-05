@@ -2,9 +2,9 @@
 
 Signed module testing catalogue for **Synthetiq Player**.
 
-This repository mirrors the official catalogue and adds the latest test modules
-(`An1me`, `HiAnime`, `KickAssAnime v4`) so they can be installed and updated
-from inside the app without file imports.
+This repository is an isolated testing catalogue. It currently exposes only
+the `An1me` module so testers can install and update that module without
+installing the production catalogue.
 
 ## Use in the app
 
@@ -19,7 +19,7 @@ updates for installed modules.
 
 ## Layout
 
-- `catalogue.json` — editable source of truth (module files + changelogs)
+- `catalogue.json` — editable source of truth for the selected test modules
 - `modules/` — immutable module ZIPs (each version is a separate file)
 - `bundles/` — signed bootstrap bundle ZIP
 - `repository.json` — generated signed index (do not edit by hand)
