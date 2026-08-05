@@ -42,7 +42,8 @@ jobs:
         run: node scripts/publish_releases.mjs
       - name: Publish signed index to the default branch
         run: |
-          if git diff --quiet -- repository.json SHA256SUMS; then
+          if git diff --quiet -- repository.json SHA256SUMS && \
+            git ls-files --error-unmatch repository.json SHA256SUMS >/dev/null 2>&1; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
