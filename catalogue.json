@@ -18,7 +18,7 @@
         "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
         "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments",
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
-        "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix",
+        "Fixed episode details title to strip the Greek '\u03a0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03ae\u03c3\u03c4\u03b5' (Watch) prefix",
         "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL",
         "Stream routes are now range-probed before returning: dead Google Photos and expired wetransfer links are dropped, and the site's reliable An1 HLS server is preferred"
       ]
@@ -29,6 +29,16 @@
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
         "Preserved compatibility with previously saved onepace-index episode links",
         "Retained sub/dub metadata and multi-quality stream resolution"
+      ]
+    },
+    {
+      "file": "modules/X-Stream-1.1.2.zip",
+      "changelog": [
+        "1.1.2 reliability: segment-level softProbe (403/timeout/CF HTML = dead)",
+        "Drop dead Videasy/moon/ironwallnet routes when LookMovie/refligns work \u2014 fixes app StreamRace picking broken 1080p",
+        "Score LookMovie/refligns higher; demote fragile Videasy hosts until probe OK",
+        "TMDB multi-search fallback when freehost search flakes",
+        "Evil Dead Burn / Inception / Dune / John Wick: primary route segment verified MP2T"
       ]
     }
   ]
