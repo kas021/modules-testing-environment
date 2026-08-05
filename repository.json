@@ -10,7 +10,7 @@
     "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
     "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
     "sha256": "17fa6319907698e3d1348aa5bdcac55ef853825b301749e06a7ed4cf08539f6c",
-    "signature": "kjPKnJhmjw90ownQS7oJ+EHB6mJhP2ges0B3/OaVBCJpkjf9zWl0pSU5XKkjnnA4JylOAKjdICfwZAKVBss8Tg=="
+    "signature": "TejQDSDTvq8d0pyNt++Czz5wQuMHu2QzXlV2TvKiXgfG2adQj5A2WTKsAelHVDXE8UeRl1eemf1Srsw6PtrW4A=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
       "sha256": "f26cbdc55d6ce5e976d13197d6e126e871f72725b648450074632795482df634",
-      "signature": "25tvUB8vuoUpNBIXqDn2T5/WqswRWXM7ms26GJDTsJEkN/I6zbq2+nh/R4g7BWWYZs6tDWrjjzxOGM5iO36ylQ==",
+      "signature": "0RdJ8drvPt00YgfVgjZz4whPEN2ElP2cEeNa6MGAr0z80eUMjsHRnDGyznW8Kl7aX5Smr64qgbczx7/F6f/MDA==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -34,11 +34,30 @@
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
         "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix"
       ]
+    },
+    {
+      "moduleId": "onepace-v3",
+      "moduleFamilyId": "onepace-v3",
+      "moduleIdentity": "SP-VID-033-ONEPACE",
+      "moduleIdentityNumber": 33,
+      "contentType": "video",
+      "version": "3.0.2",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
+      "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
+      "signature": "iDwDQvzd6co1CjXv3uT3dLqVNfNHe7WALd9PD0t1SP8m8aZXA1SvF9ADyp/MPipcztOZkusWGEZbsQsY1FBP5w==",
+      "publishedAtMs": 1785891156710,
+      "changelog": [
+        "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
+        "Preserved compatibility with previously saved onepace-index episode links",
+        "Retained sub/dub metadata and multi-quality stream resolution"
+      ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "uUz++f5gdcQeKWoP4xWp226O0piFQhZ8j5UUuY5pTCSxOmHlkWupCzmMzuRSvmuyhyztaoOcURnF9wwe+3EhlQ==",
-  "signature": "iL1LIIHzAVK5uonrEds0yFBk++IYXznXQdYSBwXKRHQDOg5XV8VFjut4G6PjwvYJR7xsNiEUEEfguhVkMj7jcw=="
+  "defaultModulesSignature": "5TH61j+KBM1M+hAYFh4oRJqRquR49JVAqSvW9I3vSRUQsotxBMK2bkMf5W6FN0Tf9flR+ZA3P1C1aOj6wMAAWQ==",
+  "signature": "7l8uq2rQJex2mcEksWeLolYqWbLZE5IravnttAlGH7STzfP+dOFz1wet1t9JfWzi6CGymWjHDzB8v3Y02i0sjA=="
 }
