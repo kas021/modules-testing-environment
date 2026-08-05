@@ -6,8 +6,8 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 7,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-7.zip",
+  "bundleVersion": 8,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-8.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -49,6 +49,16 @@
         "Videasy 1080p/4K HLS plus LookMovie backups",
         "Demotes black-screen jpeg/TS Videasy segments",
         "Verified English subs via One proxy"
+      ]
+    },
+    {
+      "file": "modules/Shahiid-1.0.0.zip",
+      "changelog": [
+        "Shahiid-anime.net Arabic anime (مترجم/مدبلج)",
+        "Catalog via headless webview (site is Cloudflare-JS-challenged)",
+        "Verified Megamax stream chain: Inertia streams API -> lulustream PackedJS decode -> real HLS",
+        "5 mirror backups (lulustream/voe/streamtape/mixdrop; doodstream skipped - CF wall)",
+        "Requires pagev2 on-device resolution for catalog pages"
       ]
     }
   ]
