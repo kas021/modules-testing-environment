@@ -5,12 +5,12 @@
   "enabled": true,
   "publishedAtMs": 1785891156710,
   "bundle": {
-    "version": 9,
+    "version": 10,
     "minAppVersion": "8.0.0",
-    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-9/Synthetiq-Test-Module-Bundle-9.zip",
-    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-9/Synthetiq-Test-Module-Bundle-9.zip",
-    "sha256": "469cd2f3eec8a928a6697de782e408e68ef21ccb387eb22613bbfb433fe56230",
-    "signature": "505kY3l10OILzrkcrYW6z5rd2jCz3s6VNeRM4m+W3Jn8FZnmVhF9WChBsw8SIYvxE2WkXO/NMv38BkMzftrGxw=="
+    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-10/Synthetiq-Test-Module-Bundle-10.zip",
+    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-10/Synthetiq-Test-Module-Bundle-10.zip",
+    "sha256": "e72ceeaaefdbf36499037362cd69ffbdc9f402580b2f43892fdd294622cd69bc",
+    "signature": "fP37roE3dJ25NKT+f9SYhfn6LFnSN64rq5x38opOpPQIM2flCGzx2hOWSgwnasuur9F5F1T+MVfHFj+nZknSew=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "sha256": "2642093d93d84fc649636c6d0796b3c16b5ed4b9f94153ca2286578b8f5f45d1",
-      "signature": "40KWI0WTUcE90VaHrMEJ2zsckfUJiIVaBA1UpK65lkFILUxJZWTmHAjzUm/ci9KbRrBCiEOetUgZNng9Gt/ILg==",
+      "signature": "8qPhjD8KV7am1HNb/ESFLlShL52CBM1ayx/4lxqfLjQSnGrGEdNxYppb59vWEjHhB67MeRh2FMiEmtreMGZJ+A==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -48,7 +48,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.1/Anidap-1.0.1.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.1/Anidap-1.0.1.zip",
       "sha256": "b66048d24effb9d967244c13ad875e5d334e810f5ac4eb2d431247d63b4646e5",
-      "signature": "UQgvtqLSJ3fnsFgVF2bf6ke5nXKxWrIMqsqb7Avn5Sr4NRaVS3aD73xdujzjjwj8MV5Af25++UxUHmRJl6WfTw==",
+      "signature": "D29TKdNgqHGON1TlsQRFKgu2skKgNWnuKTSxHbjxJUzAxbQmkoQChn8/Tuy4Dyg4Zj9rMoWFS3Tfc6UtIBDIew==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Anidap.lol English sub/dub anime",
@@ -71,7 +71,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "nwP+cGeuKnaWELI1vBPuNeRWSjuLfLOb6UrzYtAGNU1cyq/YrmsdNmNxr5sBp1igGGYni7L2SkuCGcC5nVUOUw==",
+      "signature": "ofY8JMpqA9aSOavViyWDFaJOYyekvr4RcZPPXa5sx9xjjtB+6rRr7a/2CUIRwaRPEW8E93Jum4ph9PTG2fKW8g==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -90,7 +90,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "sha256": "ceebe9d9945d05e481e775b094a0d76c7b1a4022d43ef2fc3669731b34e5b67d",
-      "signature": "vzUVYXRUk9aqEpmfLKSJ0mRxCyAoTkSjMsS8xYsuMtt9pTsf+VgHf9RgYXq7gI2LppaLXlxoScuJjVKxBryjxQ==",
+      "signature": "ZUOlSppbqs15CQpA/RRenDwVEiR0qQM/+Qpv4QiHGc+IwgZOUfXUbA6MOGQy1b7dd9/erlJzCsdEsQA2U9jyEA==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Videasy 1080p/4K HLS plus LookMovie backups",
@@ -104,25 +104,25 @@
       "moduleIdentity": "SP-VID-055-SHAHIID",
       "moduleIdentityNumber": 55,
       "contentType": "video",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.1/Shahiid-1.0.1.zip",
-      "packagePath": "/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.1/Shahiid-1.0.1.zip",
-      "sha256": "dbc9553e816cd7a5a6743dea9ca3f4ee863ba3e783d388456da12cedaa3e4075",
-      "signature": "pLjqNhQCmSGuyF3+mIsavZVWiN2203tKfn7L2B5Fymrv1swr59qOfNja4OeiV396pt/66e6Hr6DMdEmFcBMlkQ==",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.2/Shahiid-1.0.2.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.2/Shahiid-1.0.2.zip",
+      "sha256": "c00ddef27b5f981a792ec00443c1bb513a57c630ccaee7c6f50d785452fb8dc5",
+      "signature": "9MOdolFiHxOO7mUWpqesk4kWOWSD+TF/lim7VD+Pu/mEBpjxTXnUgB8gx1t1nd3vfbR02yHGMHrQQzlEDGZW1A==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Shahiid-anime.net Arabic anime (مترجم/مدبلج)",
-        "1.0.1: Home never empty — multi-type parser (episodes/seasons/anime) + seed fallback when Cloudflare blocks",
-        "Stronger pagev2 retries/settle for CF on device",
-        "Megamax stream chain: Inertia streams API → lulustream PackedJS → real HLS",
-        "Search falls back to seed catalogue when live HTML unavailable"
+        "1.0.2: Fix empty episode lists — treat bare data-frameserver hashes as megamax/share4max codes",
+        "1.0.2: Much faster details/episodes (1 short pagev2 attempt + HTML cache; episode cards list instantly)",
+        "1.0.2: Home sections expose viewAll feed (latest episodes / seasons / movies)",
+        "1.0.1: Seed home fallback when Cloudflare blocks"
       ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "NAGoLFdy04zP92DmjAeCog/DJ/80SWn1AZx9PsqmM6BhkFETMrp+b3n3oLlexi2dA8jtPq4zsNY8BT8ry38tlA==",
-  "signature": "Q0+HfIMX0ggqcQHKdKy8YqOK8B6k/7sh9Svn7fL+9nyQCJb7DyHlulndVLHiIoQOOaecFoOurZ7IbCvczbIFkA=="
+  "defaultModulesSignature": "qyC8O2gZLDkwxvccrrWkAtHY06wLvBzvOY64e6gxUlp6I4+YBaQMOg7ZAblYeDrBgqx7mHJ8fYJbkPZ4mWswCA==",
+  "signature": "Q6oKdu6QK2sEec+7PqX4V5+m97ftAlLFfuWnwpL800L24IceN1f7gqbIqArh3PEzlg5KaLKMVY/x1ZqeRZl3sA=="
 }
