@@ -6,19 +6,20 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 4,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-4.zip",
+  "bundleVersion": 5,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-5.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/An1me-1.0.4.zip",
+      "file": "modules/An1me-1.0.5.zip",
       "changelog": [
         "Greek sub/dub anime catalogue",
         "Fixed home discovery images and 404 episode guard",
         "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
         "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments",
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
-        "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix"
+        "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix",
+        "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL"
       ]
     },
     {
