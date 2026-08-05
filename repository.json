@@ -5,12 +5,12 @@
   "enabled": true,
   "publishedAtMs": 1785891156710,
   "bundle": {
-    "version": 4,
+    "version": 5,
     "minAppVersion": "8.0.0",
-    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
-    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
-    "sha256": "17fa6319907698e3d1348aa5bdcac55ef853825b301749e06a7ed4cf08539f6c",
-    "signature": "tNxG2VA8IRba1rn/y8DC9Z9Lq7dbPj7A+RqJyyiUzORWJd6i+81rZAWQ+0k8g0S+xRUwEhKPodiny3pSreramQ=="
+    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-5/Synthetiq-Test-Module-Bundle-5.zip",
+    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-5/Synthetiq-Test-Module-Bundle-5.zip",
+    "sha256": "8ae0de404347edbdabe1beb8799016fa594fbad556f652fbbd4c7fe025190e04",
+    "signature": "U01gN8flRJ4oHoCB2qdYnhmyXz9xH0OOCaZocgvyjDADVF2TgvZR37iIRZzXBoeTgZi5FZ/uQw0WpxVif0X//Q=="
   },
   "modules": [
     {
@@ -19,12 +19,12 @@
       "moduleIdentity": "SP-VID-053-AN1ME",
       "moduleIdentityNumber": 53,
       "contentType": "video",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
-      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
-      "sha256": "f26cbdc55d6ce5e976d13197d6e126e871f72725b648450074632795482df634",
-      "signature": "+VBp605CkCtymhMHGcjnD85bXeil3k6m0H1qw/j1cKW9zyD/Os/LkTR617Ljb5A1fLVkaT5WUlvqmi2DIpgH+Q==",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
+      "sha256": "a8bf2074fbb3a793c25188eff7f164e016aa17069094a640bd6a0d55f895c609",
+      "signature": "BvPA9WmxJXcPYvISRs7gPLFYkZeIhVkEfMdL6UvQAH0KAvV2AW1H0JFpS1fZFMF/u7bbtqGkeKveW3drniT1dQ==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -32,7 +32,8 @@
         "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
         "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments",
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
-        "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix"
+        "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix",
+        "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL"
       ]
     },
     {
@@ -46,7 +47,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "5BMVASP9qFQRyyysCLI29h5NfMjUYHkZ9wmdrSuifSP0cVxdqzcBunBgEK+KG7J87fJTeyZPVspNjx5CEvGdvg==",
+      "signature": "Vw13Mqf763B1ie3ZN2E0kEYskiv0Kf4BUlTXfGy9gZPlxvjVmlHNBIhSdARP6u8Me35XIQjW6OebLV3BmUAwFw==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -58,6 +59,6 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "2m7+u3Cyh7OMZUbB26mcwLL4qkYj6DlGYVl5zuSB0HD7gLs7p5J8CUdu9EYRdgMDf6N6lgXJ0501XUHji0maXw==",
-  "signature": "/kQ37JqNibJw8V8GjItWYdw1LzBYNsrMhe5Hmo31ZzeCXcF03YcbQQnJvPPQczSlzm3K2FwAcH/yOr6XPaffVg=="
+  "defaultModulesSignature": "w51778lSbMDKEnRDWgucGnHLtniN4ftvxk7kgzsn7sOd+R1BVr7UoFK8hENmL7rz1rCsB1eKo8kjGBY2bc1i2Q==",
+  "signature": "iXofXDm/eak/C7gIRHnAuuZu9nH06eobfg5oDfaqxujNVoI8II+n64rfSVWpCALG8oT8HhP5ps8YLRuDmErjug=="
 }
