@@ -6,8 +6,8 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 9,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-9.zip",
+  "bundleVersion": 10,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-10.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -52,13 +52,13 @@
       ]
     },
     {
-      "file": "modules/Shahiid-1.0.1.zip",
+      "file": "modules/Shahiid-1.0.2.zip",
       "changelog": [
         "Shahiid-anime.net Arabic anime (مترجم/مدبلج)",
-        "1.0.1: Home never empty — multi-type parser (episodes/seasons/anime) + seed fallback when Cloudflare blocks",
-        "Stronger pagev2 retries/settle for CF on device",
-        "Megamax stream chain: Inertia streams API → lulustream PackedJS → real HLS",
-        "Search falls back to seed catalogue when live HTML unavailable"
+        "1.0.2: Fix empty episode lists — treat bare data-frameserver hashes as megamax/share4max codes",
+        "1.0.2: Much faster details/episodes (1 short pagev2 attempt + HTML cache; episode cards list instantly)",
+        "1.0.2: Home sections expose viewAll feed (latest episodes / seasons / movies)",
+        "1.0.1: Seed home fallback when Cloudflare blocks"
       ]
     }
   ]
