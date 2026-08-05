@@ -20,6 +20,14 @@
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
         "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix"
       ]
+    },
+    {
+      "file": "modules/One-Pace-3.0.2.zip",
+      "changelog": [
+        "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
+        "Preserved compatibility with previously saved onepace-index episode links",
+        "Retained sub/dub metadata and multi-quality stream resolution"
+      ]
     }
   ]
 }
