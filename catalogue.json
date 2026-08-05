@@ -6,8 +6,8 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 6,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-6.zip",
+  "bundleVersion": 7,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-7.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -24,14 +24,15 @@
       ]
     },
     {
-      "file": "modules/Anidap-1.0.0.zip",
+      "file": "modules/Anidap-1.0.1.zip",
       "changelog": [
         "Anidap.lol English sub/dub anime",
         "Canonical API search with Referer header (WAF bypass)",
         "Multi-provider HLS (beep/mimi/yuki/uwu/kiwi/sora) plus DASH fallbacks",
         "Segment-level validation rejects fake 1x1 PNG placeholder playlists",
         "Ordered episodes with per-episode English/Japanese titles",
-        "Stream URLs preserved with their required headers"
+        "Stream URLs preserved with their required headers",
+        "Fixed home discovery: unwraps nested trending/popular response envelopes"
       ]
     },
     {
