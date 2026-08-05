@@ -5,12 +5,12 @@
   "enabled": true,
   "publishedAtMs": 1785891156710,
   "bundle": {
-    "version": 5,
+    "version": 6,
     "minAppVersion": "8.0.0",
-    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-5/Synthetiq-Test-Module-Bundle-5.zip",
-    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-5/Synthetiq-Test-Module-Bundle-5.zip",
-    "sha256": "6ef81a003708566864170fd280d80c77ac81674a5eb1909c51e29b4912c5d724",
-    "signature": "82SEfzqrKqmohyHkgUTGSX0IJlIDvRCBYwtnP6wyIEY96neQrRoq81f+vcr39OtbnPiug7sqnpknFuaGyM/CBA=="
+    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-6/Synthetiq-Test-Module-Bundle-6.zip",
+    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-6/Synthetiq-Test-Module-Bundle-6.zip",
+    "sha256": "f3f6e661de4199ef4a4e549757a8cc83c74fc88090476e531ce665bc3b4c25b1",
+    "signature": "3QApJM2MjAxJXXL8iV7OcaY1CE/sCMJAgM5oR/4peX+qvXK9zIF90+SQsjD+kJUJXaq5clSfliwni5s2sotB7w=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
       "sha256": "2642093d93d84fc649636c6d0796b3c16b5ed4b9f94153ca2286578b8f5f45d1",
-      "signature": "suvf92z0CxkCVlmt/5TEbOJAb+iSqMmW6Ty1nRhKUKj109Pc92DV4lZEhT14BeDSuaMRQeLgfQYLoNB6j1kvCw==",
+      "signature": "IUIV3Vr2lH5tnuZJIfZTyehZUIzLdnQabuXk1WCAiPOH8Rd2d9xxBr1am7X3s3XDY100vkJ0Jjkc3OEL2P2Z7A==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -38,6 +38,28 @@
       ]
     },
     {
+      "moduleId": "anidap-v1",
+      "moduleFamilyId": "anidap_v1",
+      "moduleIdentity": "SP-VID-052-ANIDAP",
+      "moduleIdentityNumber": 52,
+      "contentType": "video",
+      "version": "1.0.0",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.0/Anidap-1.0.0.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.0/Anidap-1.0.0.zip",
+      "sha256": "0e36ada1cf2133b4c84878f69592638fde4dc7b9683d77c4336d31dacb46c0c1",
+      "signature": "qZXjHxDtzk+n4wrBGudpmhE0QtTpxmJ8tOQvPKpKcghdb3kGPw+hQgYfTNeeCvOptiddMOZU0Xbs0uTyeW4OBg==",
+      "publishedAtMs": 1785891156710,
+      "changelog": [
+        "Anidap.lol English sub/dub anime",
+        "Canonical API search with Referer header (WAF bypass)",
+        "Multi-provider HLS (beep/mimi/yuki/uwu/kiwi/sora) plus DASH fallbacks",
+        "Segment-level validation rejects fake 1x1 PNG placeholder playlists",
+        "Ordered episodes with per-episode English/Japanese titles",
+        "Stream URLs preserved with their required headers"
+      ]
+    },
+    {
       "moduleId": "onepace-v3",
       "moduleFamilyId": "onepace-v3",
       "moduleIdentity": "SP-VID-033-ONEPACE",
@@ -48,7 +70,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "GBA4zr4ZBqO5uHPjeBN0ZZE/TjCDXT5D0LkzIEp4QVSkzRRgBBAA+HWLrrro8sATUg9BarQWU4L/4THXA5a8sg==",
+      "signature": "2rB4rqp9bzBK76/RH7Sl4uGhLsR3ya+YPs1r0ZedTe9TrybJywYW+kqLaLrPXKf0uUEiYdnaM5zpgKp4PTl1ug==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -67,20 +89,18 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "sha256": "ceebe9d9945d05e481e775b094a0d76c7b1a4022d43ef2fc3669731b34e5b67d",
-      "signature": "DnwWuMwcBub740SqCMvJkjMNfLgcnvKGZBXn0viYANR9LpUY7V2NWKCnnj9sAR0uGl+Np68QQ891oQ6E6Fa1QA==",
+      "signature": "HJlxvl4sMPLzk+w+n7Z21KLO1zSyee/dQKMN+ZLNo8rV9OLj6mN9KgTh41593Z5G8oM8PHuEDre+Y5V4vJC7zA==",
       "publishedAtMs": 1785891156710,
       "changelog": [
-        "1.1.2 reliability: segment-level softProbe (403/timeout/CF HTML = dead)",
-        "Drop dead Videasy/moon/ironwallnet routes when LookMovie/refligns work — fixes app StreamRace picking broken 1080p",
-        "Score LookMovie/refligns higher; demote fragile Videasy hosts until probe OK",
-        "TMDB multi-search fallback when freehost search flakes",
-        "Evil Dead Burn / Inception / Dune / John Wick: primary route segment verified MP2T"
+        "Videasy 1080p/4K HLS plus LookMovie backups",
+        "Demotes black-screen jpeg/TS Videasy segments",
+        "Verified English subs via One proxy"
       ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "/+j4dyI9zlS7Qaelud67DaXx9afN9G9+nxlu/nNS2XHwmowrYlbo2aftxLbUlBr5ARDrReEiIXdW4ybko3pifA==",
-  "signature": "95cNFzHksNwk+Ey7fdwH//NfsEcldZ0D86tPLS5Zro2XH6j0+UvpOe8jcflvvoj7+93POtkXCjsLvaeioaZJAg=="
+  "defaultModulesSignature": "jUCszhdcMzk/Xc0KFf+cBKIaUcQsHpqTR/7r+9JVNr0O1jVSLw8Fpak78ssOKBhPSMrO7SyYK8SFRFtvefbuHg==",
+  "signature": "KcpJI9Esfftq8Qum6WPsWdif+UQhT/nNp+Y+vrvW4FG4/Lq4HM8Cc8iS43ORTbzVTXys2IK77eIWnDYZ/aEvfQ=="
 }
