@@ -6,17 +6,17 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 2,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-2.zip",
+  "bundleVersion": 3,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-3.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/An1me-1.0.2.zip",
+      "file": "modules/An1me-1.0.3.zip",
       "changelog": [
         "Greek sub/dub anime catalogue",
-        "Fixed home discovery images and 404 episode guard",
-        "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
-        "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments"
+        "Fixed Flutter fetchv2 JSON response parsing and URL normalization",
+        "Rejects false HLS image playlists that can download but cannot play",
+        "Prefers playable MP4 routes and checks more authorised server routes"
       ]
     }
   ]
