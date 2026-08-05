@@ -5,12 +5,12 @@
   "enabled": true,
   "publishedAtMs": 1785891156710,
   "bundle": {
-    "version": 3,
+    "version": 4,
     "minAppVersion": "8.0.0",
-    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-3/Synthetiq-Test-Module-Bundle-3.zip",
-    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-3/Synthetiq-Test-Module-Bundle-3.zip",
-    "sha256": "93bf471f356b6ad98a4e42250a7e53a0cdade2c842b191cec204fd7c3bcc33ff",
-    "signature": "RocokxuwdFaUvnIpQzKT9A9JJpHP9134nRzfTYYJ48OSOS/PnQ5nTQ8jQn9gYn6YlSoS/GMorYzVfNd7aIZpHA=="
+    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
+    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-4/Synthetiq-Test-Module-Bundle-4.zip",
+    "sha256": "17fa6319907698e3d1348aa5bdcac55ef853825b301749e06a7ed4cf08539f6c",
+    "signature": "kjPKnJhmjw90ownQS7oJ+EHB6mJhP2ges0B3/OaVBCJpkjf9zWl0pSU5XKkjnnA4JylOAKjdICfwZAKVBss8Tg=="
   },
   "modules": [
     {
@@ -19,24 +19,26 @@
       "moduleIdentity": "SP-VID-053-AN1ME",
       "moduleIdentityNumber": 53,
       "contentType": "video",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.3/An1me-1.0.3.zip",
-      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.3/An1me-1.0.3.zip",
-      "sha256": "c4df4eb6d11ab61911493e25ca2d946b241745467efbb5bf4101876bd7f3dce7",
-      "signature": "CStc8VvX5aNTRLd+JDPiJRQaWt6ZRWVwD7WVJg3EdRmzWh3f72P/Cjfd0RDr4bFplufKFkLLpB/ruO22LRFdkg==",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.4/An1me-1.0.4.zip",
+      "sha256": "f26cbdc55d6ce5e976d13197d6e126e871f72725b648450074632795482df634",
+      "signature": "25tvUB8vuoUpNBIXqDn2T5/WqswRWXM7ms26GJDTsJEkN/I6zbq2+nh/R4g7BWWYZs6tDWrjjzxOGM5iO36ylQ==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
-        "Fixed Flutter fetchv2 JSON response parsing and URL normalization",
-        "Rejects false HLS image playlists that can download but cannot play",
-        "Prefers playable MP4 routes and checks more authorised server routes"
+        "Fixed home discovery images and 404 episode guard",
+        "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
+        "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments",
+        "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
+        "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix"
       ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "CEkQEm6sE2WqnRPGMGrlrFUnbNLHmZE0zuj/mPIe8do4sAvp578G6MkcdhHQZn/FPgd6w3SYLPh93PpmFm/w8A==",
-  "signature": "SUiBrWs5yMayXJwztAxTI9Dro4y87d9FW0bcfZ5F4PA/5oJ3oZBDBfOvl+mDZdMK6saBQ9ST7mau6LL9JSWMSA=="
+  "defaultModulesSignature": "uUz++f5gdcQeKWoP4xWp226O0piFQhZ8j5UUuY5pTCSxOmHlkWupCzmMzuRSvmuyhyztaoOcURnF9wwe+3EhlQ==",
+  "signature": "iL1LIIHzAVK5uonrEds0yFBk++IYXznXQdYSBwXKRHQDOg5XV8VFjut4G6PjwvYJR7xsNiEUEEfguhVkMj7jcw=="
 }
