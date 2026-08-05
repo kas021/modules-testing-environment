@@ -10,7 +10,7 @@
     "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-2/Synthetiq-Test-Module-Bundle-2.zip",
     "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-2/Synthetiq-Test-Module-Bundle-2.zip",
     "sha256": "032d028e4e72157fa7ed1138b466a6c9c71fc5eb0656c867eaf197da486ad367",
-    "signature": "HigA0D2737R1fENrNCvmVlY/CtCtPi3or7lz7ofCjgeZPUIvQX50U7A2br+KR36OUe5AKx2r/VgIc8YcrxFmIQ=="
+    "signature": "/umJmNEfAO5Mfy5rcy4odXyf8G5Toap6Wc3u3BiZ8F2d5UJB/hbGhT2E8TQSpvHHeXFpjr54XYp6fj06wQpF/Q=="
   },
   "modules": [
     {
@@ -19,23 +19,24 @@
       "moduleIdentity": "SP-VID-053-AN1ME",
       "moduleIdentityNumber": 53,
       "contentType": "video",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.1/An1me-1.0.1.zip",
-      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.1/An1me-1.0.1.zip",
-      "sha256": "e4709503c1b1aad83c2124f502e91a7b7fd6311f178f5af36bda627f227f64e7",
-      "signature": "/CzMmafQovhWdgX1r4CBaRojYZxRHYqJ3aHQpCd9P1qbMA2wQHjPeYb3fWyawAT3OHkcS3YD647Um1CYQag0Rg==",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.2/An1me-1.0.2.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.2/An1me-1.0.2.zip",
+      "sha256": "5495ffcf550b0a06bfdd47578d482f4b463f248121d73217a30ae2d83eb77b30",
+      "signature": "gYTV/bgf5TWPITXyD3XXD+HqflhfGbXdYpWbMrEvafdv1wYwoUjPy6Qn2zkzNwDFyLi5a6amzxaFfNaxOmquoA==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
         "Fixed home discovery images and 404 episode guard",
-        "Testing environment contains An1me only"
+        "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
+        "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments"
       ]
     }
   ],
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "04MBBMNqOUrlGtVtW8jekFVrMvKn4FtCgqG4zpL4nEmNZXzApaD8gdfbPbGLJ9rWw70juih+3I8Sd1NHgLUHLg==",
-  "signature": "M8LpZ97c4M7wBuMEyMFRoip8ksQ0oX/WV1npcIADRtefSvMrE7cUWPGZhoW0IiVum65YpHdmJFBNyufC6tPamw=="
+  "defaultModulesSignature": "BlC72zpo0BIP1tyxrsfFCytqp3g+wbFNRKITDVkKSGXvG1of7lY1uUUCHqL94+FQYJAbCjfh/kOYeaSLWLwEJA==",
+  "signature": "rkuPP5fl73heS5LfIiTekM6hm9OQaspacDHW0XChI8o4RWvhBMNmu5zbk17NabR6G+UQfuTWRoMNm338npxyTg=="
 }
