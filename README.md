@@ -2,9 +2,9 @@
 
 Signed module testing catalogue for **Synthetiq Player**.
 
-This repository is an isolated testing catalogue. It currently exposes only
-the `An1me` module so testers can install and update that module without
-installing the production catalogue.
+This repository is an isolated testing catalogue. It currently exposes the
+`An1me` and `One Pace` modules so testers can install and update those modules
+without installing the production catalogue.
 
 ## Use in the app
 
