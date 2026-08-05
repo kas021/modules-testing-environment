@@ -10,6 +10,14 @@
   "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-2.zip",
   "minAppVersion": "8.0.0",
   "modules": [
-    {"file": "modules/An1me-1.0.1.zip", "changelog": ["Greek sub/dub anime catalogue", "Fixed home discovery images and 404 episode guard", "Testing environment contains An1me only"]}
+    {
+      "file": "modules/An1me-1.0.2.zip",
+      "changelog": [
+        "Greek sub/dub anime catalogue",
+        "Fixed home discovery images and 404 episode guard",
+        "Corrected cover-title pairing (local poster images for list cards, exact MAL matching for hero cards)",
+        "HLS playback through the session proxy now serves .ts/.m3u8 URL paths so strict players accept disguised .jpg segments"
+      ]
+    }
   ]
 }
