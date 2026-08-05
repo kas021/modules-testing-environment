@@ -6,8 +6,8 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 8,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-8.zip",
+  "bundleVersion": 9,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-9.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -52,13 +52,13 @@
       ]
     },
     {
-      "file": "modules/Shahiid-1.0.0.zip",
+      "file": "modules/Shahiid-1.0.1.zip",
       "changelog": [
         "Shahiid-anime.net Arabic anime (مترجم/مدبلج)",
-        "Catalog via headless webview (site is Cloudflare-JS-challenged)",
-        "Verified Megamax stream chain: Inertia streams API -> lulustream PackedJS decode -> real HLS",
-        "5 mirror backups (lulustream/voe/streamtape/mixdrop; doodstream skipped - CF wall)",
-        "Requires pagev2 on-device resolution for catalog pages"
+        "1.0.1: Home never empty — multi-type parser (episodes/seasons/anime) + seed fallback when Cloudflare blocks",
+        "Stronger pagev2 retries/settle for CF on device",
+        "Megamax stream chain: Inertia streams API → lulustream PackedJS → real HLS",
+        "Search falls back to seed catalogue when live HTML unavailable"
       ]
     }
   ]
