@@ -6,12 +6,12 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "bundleVersion": 10,
-  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-10.zip",
+  "bundleVersion": 11,
+  "bundleFile": "bundles/Synthetiq-Test-Module-Bundle-11.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/An1me-1.0.5.zip",
+      "file": "modules/An1me-1.0.6.zip",
       "changelog": [
         "Greek sub/dub anime catalogue",
         "Fixed home discovery images and 404 episode guard",
@@ -20,7 +20,8 @@
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
         "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix",
         "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL",
-        "Stream routes are now range-probed before returning: dead Google Photos and expired wetransfer links are dropped, and the site's reliable An1 HLS server is preferred"
+        "Stream routes are now range-probed before returning: dead Google Photos and expired wetransfer links are dropped, and the site's reliable An1 HLS server is preferred",
+        "Republished as 1.0.6 because the immutable 1.0.5 release asset did not match the signed catalogue hash"
       ]
     },
     {
