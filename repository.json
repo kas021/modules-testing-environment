@@ -5,12 +5,12 @@
   "enabled": true,
   "publishedAtMs": 1785891156710,
   "bundle": {
-    "version": 10,
+    "version": 11,
     "minAppVersion": "8.0.0",
-    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-10/Synthetiq-Test-Module-Bundle-10.zip",
-    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-10/Synthetiq-Test-Module-Bundle-10.zip",
-    "sha256": "e72ceeaaefdbf36499037362cd69ffbdc9f402580b2f43892fdd294622cd69bc",
-    "signature": "fP37roE3dJ25NKT+f9SYhfn6LFnSN64rq5x38opOpPQIM2flCGzx2hOWSgwnasuur9F5F1T+MVfHFj+nZknSew=="
+    "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/bundle-11/Synthetiq-Test-Module-Bundle-11.zip",
+    "packagePath": "/kas021/modules-testing-environment/releases/download/bundle-11/Synthetiq-Test-Module-Bundle-11.zip",
+    "sha256": "0cc2dba9d95058bb81c748ca3ab68c1519b709daa65b7c9cf8fe8e0c9fbd0f3d",
+    "signature": "RwvU16u9fsF7tmgahZwNZu4cUjHlvEPudMxtBDfbQqkLGjc3HVtHsZ/d5oRH4X5tfSWLm/CpU2bAGlrqJGtVPw=="
   },
   "modules": [
     {
@@ -19,12 +19,12 @@
       "moduleIdentity": "SP-VID-053-AN1ME",
       "moduleIdentityNumber": 53,
       "contentType": "video",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
-      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.5/An1me-1.0.5.zip",
-      "sha256": "2642093d93d84fc649636c6d0796b3c16b5ed4b9f94153ca2286578b8f5f45d1",
-      "signature": "8qPhjD8KV7am1HNb/ESFLlShL52CBM1ayx/4lxqfLjQSnGrGEdNxYppb59vWEjHhB67MeRh2FMiEmtreMGZJ+A==",
+      "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.6/An1me-1.0.6.zip",
+      "packagePath": "/kas021/modules-testing-environment/releases/download/module-an1me-v1-v1.0.6/An1me-1.0.6.zip",
+      "sha256": "e613cab2c4cca21618de5bf2f95a6da5bcd11b904332c627023be4045854b862",
+      "signature": "76jCy3g3z21drDOrKns7l+8urdAInPD0JsQ5pJXkbfHDM3kfJ0q0s7O3bYsHiN6v4xK0Fb0HkkkcQEOxjlUhjg==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Greek sub/dub anime catalogue",
@@ -34,7 +34,8 @@
         "Fixed live playback regression: genuine An1me streams disguise real MPEG-TS segments as .jpg files and were wrongly rejected as image slideshows; the check now trusts masters advertising real video codecs/resolutions",
         "Fixed episode details title to strip the Greek 'Παρακολουθήστε' (Watch) prefix",
         "Fixed empty episode lists: multi-season/franchise shows (Pokemon) now load episodes via the site AJAX API, and movies resolve their bare watch URL",
-        "Stream routes are now range-probed before returning: dead Google Photos and expired wetransfer links are dropped, and the site's reliable An1 HLS server is preferred"
+        "Stream routes are now range-probed before returning: dead Google Photos and expired wetransfer links are dropped, and the site's reliable An1 HLS server is preferred",
+        "Republished as 1.0.6 because the immutable 1.0.5 release asset did not match the signed catalogue hash"
       ]
     },
     {
@@ -48,7 +49,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.1/Anidap-1.0.1.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-anidap-v1-v1.0.1/Anidap-1.0.1.zip",
       "sha256": "b66048d24effb9d967244c13ad875e5d334e810f5ac4eb2d431247d63b4646e5",
-      "signature": "D29TKdNgqHGON1TlsQRFKgu2skKgNWnuKTSxHbjxJUzAxbQmkoQChn8/Tuy4Dyg4Zj9rMoWFS3Tfc6UtIBDIew==",
+      "signature": "AQ7EXlt9AG7O8yvbUP1ehI+O/qPsgYlzlP8DqpiquJ0QRJWx8n5G5VmZ7CwX+ALONIn3h5VlCdEiFiU+UwvBXg==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Anidap.lol English sub/dub anime",
@@ -71,7 +72,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "ofY8JMpqA9aSOavViyWDFaJOYyekvr4RcZPPXa5sx9xjjtB+6rRr7a/2CUIRwaRPEW8E93Jum4ph9PTG2fKW8g==",
+      "signature": "TUoxHzvi6b9xdshSAkUuar7qgzY88Bi2ilhaEsIUzFXlD335gQS2VXdqH0VEuFG0SMMOhVksvbuqtSXEq2qdRQ==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -90,7 +91,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-xstream-v1-v1.1.2/X-Stream-1.1.2.zip",
       "sha256": "ceebe9d9945d05e481e775b094a0d76c7b1a4022d43ef2fc3669731b34e5b67d",
-      "signature": "ZUOlSppbqs15CQpA/RRenDwVEiR0qQM/+Qpv4QiHGc+IwgZOUfXUbA6MOGQy1b7dd9/erlJzCsdEsQA2U9jyEA==",
+      "signature": "ufXZPgb2l0vZWvQZa9DAGe1lWiIqYMYK3MxW1P9MGSvFZQ+NuRLVLaryeoVRc6+GZnT3bF4ihaxlp0NIZjyP9w==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Videasy 1080p/4K HLS plus LookMovie backups",
@@ -109,7 +110,7 @@
       "packageUrl": "https://github.com/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.2/Shahiid-1.0.2.zip",
       "packagePath": "/kas021/modules-testing-environment/releases/download/module-shahiid-v1-v1.0.2/Shahiid-1.0.2.zip",
       "sha256": "c00ddef27b5f981a792ec00443c1bb513a57c630ccaee7c6f50d785452fb8dc5",
-      "signature": "9MOdolFiHxOO7mUWpqesk4kWOWSD+TF/lim7VD+Pu/mEBpjxTXnUgB8gx1t1nd3vfbR02yHGMHrQQzlEDGZW1A==",
+      "signature": "zYyAE350cUHwxDaDG9IIinR4mpb2b70HI8/myYmHpbvNXZxItOl+A71MXKo49vV9ywNCOt1zOC/R/W4yB81trw==",
       "publishedAtMs": 1785891156710,
       "changelog": [
         "Shahiid-anime.net Arabic anime (مترجم/مدبلج)",
@@ -123,6 +124,6 @@
   "defaultModules": {
     "video": "an1me-v1"
   },
-  "defaultModulesSignature": "qyC8O2gZLDkwxvccrrWkAtHY06wLvBzvOY64e6gxUlp6I4+YBaQMOg7ZAblYeDrBgqx7mHJ8fYJbkPZ4mWswCA==",
-  "signature": "Q6oKdu6QK2sEec+7PqX4V5+m97ftAlLFfuWnwpL800L24IceN1f7gqbIqArh3PEzlg5KaLKMVY/x1ZqeRZl3sA=="
+  "defaultModulesSignature": "sbi5Np5EFDpPdBN7GIzZply0eCUqetKqdb0VaZEDfRzpxOhsbqnyDsweNCoTtB/nRHUtD5EzIDPh3i1/7v/ZTw==",
+  "signature": "Nmy+VchDv00KMZpY5/19H4BgG1y0TjrtmB4HN7M0/5MJ0XRiPCqqTQw2Q8kOQ8jvj8YgvnSrT2GVw5kPXDjW2w=="
 }
